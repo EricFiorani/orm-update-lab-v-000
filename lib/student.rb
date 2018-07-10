@@ -26,7 +26,7 @@ class Student
   end
 
   def self.drop_table
-
+    sql = "DROP TABLE IF EXISTS students"
   end
 
 
